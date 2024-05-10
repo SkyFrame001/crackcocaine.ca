@@ -1,0 +1,235 @@
+.top {
+    background-color: rgb(143, 218, 218);
+    text-align: center;
+    border-style: dashed;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.boxs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 20px;
+    border-style: double;
+}
+
+.left-buttons,
+.right-buttons,
+.middle {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    display: inline-block;
+    background: #cf867c;
+    color: #f0f0f0;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: large;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    text-decoration: none;
+    position: relative; /* Add this for positioning the image */
+    overflow: hidden; /* Add this to prevent image overflow */
+}
+
+.btn img {
+    position: absolute; /* Position the image absolutely */
+    top: 50%; /* Move the image to the center vertically */
+    left: 50%; /* Move the image to the center horizontally */
+    transform: translate(-50%, -50%); /* Adjust the position to center */
+    opacity: 0; /* Initially hide the image */
+    transition: opacity 0.6s ease; /* Add transition for smooth effect */
+}
+
+
+
+
+.btn:hover img {
+    opacity: 1; /* Show the image on hover */
+}
+
+.btn:hover {
+    background-color: #95a095;
+}
+
+.head {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    color: white;
+    border-style: dashed;
+    margin: 25px;
+    border-radius: 10px;
+    font-style: inherit;
+    font-size: x-large;
+    font-family: fantasy;
+}
+
+.histo {
+    background-color: black;
+    text-align: left;
+    color: #f0f0f0;
+    border-radius: 10px;
+    margin: auto;
+    font-family: monospace;
+    font-size: medium;
+    display: flex;
+    margin-inline: 10px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+}
+
+.pic {
+    flex: 1;
+    text-align: right;
+}
+
+.pic img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 30px;
+    margin-block: 50px;
+    margin-right: 70px;
+}
+
+.btnn {
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+    font-size: large;
+}
+.how-produced {
+    background-image: url("Crack-Addiction-Crack.png (1).webp");
+    background-size: auto;
+    background-position: center;
+    color: #ffeeee; /* Adjust text color */
+    border-radius: 20px;
+    margin: 20px auto; /* Adjust margin as needed */
+    padding: 20px;
+    font-family: monospace; /* Adjust font family */
+    font-size: xx-large;
+    background-blend-mode: luminosity;
+}
+
+
+.how-produced h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px; /* Add some space below the heading */
+    
+}
+
+.how-produced p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+
+
+.cost {
+    background-image: url("priceing of cocaine.webp"); /* Replace "background_image.jpg" with your image path */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; /* Adjust blend mode to control visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cost h2 {
+    color: black;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.head {
+    background-color: #333; /* Background color for the heading */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.use {
+    background-image: url("price on street.webp"); /* Replace "background_image.jpg" with your image path */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; /* Adjust blend mode to control visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.use h2 {
+    color: rgb(250, 246, 246);
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    font-family: monospace;
+}
+
+
+.ris{
+    background-image: url("risk.jpeg"); /* Replace "background_image.jpg" with your image path */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; /* Adjust blend mode to control visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+.ris h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    background: transparent;
+    backdrop-filter: blur(10px);
+}
+
+.short{
+    background-image: url("short\ and.jpeg"); /* Replace "background_image.jpg" with your image path */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply; /* Adjust blend mode to control visibility */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.short h2{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    padding: 20px;
+    font-size: xx-large;
+    background: transparent;
+    backdrop-filter: blur(5px);
+}
